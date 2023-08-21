@@ -1,0 +1,129 @@
+/* body {
+    background: rgb(142, 208, 228);
+}
+.box {
+   tion: alternate;
+    animation-delay: 3s;
+    width: 200px;
+    height: 200px;
+    background: rgb(34, 34, 34);
+    position: relative;
+    /* animation-name: white-box;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    
+ */ 
+/* animation: white-box 2s linear infinite alternate 3s;
+}
+
+@keyframes white-box {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 600px;
+        background: rgb(235, 13, 168);
+    }
+    100% {
+        left: 0;
+        border-radius: 50%;
+    }
+
+} */ 
+/* .block {
+    width: 500px;
+    height: 400px;
+    background: red;
+    }
+    .block:hover {
+        animation: random-bg 2s linear infinite alternate;
+    }
+    
+    @keyframes random-bg {
+        0% {
+            background: purple;
+        }
+        20% {
+            background: blue;
+        }
+        40% {
+            background: orange;
+        }
+        60% {
+            background-color: yellow;
+        }
+        80% {
+            background: green;
+        }
+        100% {
+            background: rgb(15, 147, 235);
+        }
+    }   
+     */
+     .svetafor {
+        width: 150px;
+        height: 350px;
+        background: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+     }
+     .red {
+        width: 100px;
+        height: 100px;
+        background: black;
+        border-radius: 50%;
+        animation: red 5s linear ;
+     }
+     .yellow {
+        width: 100px;
+        height: 100px;
+        background: black;
+        border-radius: 50%; 
+        animation: yellow 3s linear 1 normal 5s;
+     }
+     .green {
+        width: 100px;
+        height: 100px;
+        background: black;
+        border-radius: 50%;
+        border-radius: 50%;
+        animation: green 3s linear 1 normal 8s ;
+     }
+     @keyframes red {
+        0% {
+            background: red;
+        }
+        99% {
+            background: red;
+        }
+        100% {
+            background: black;
+        }
+     }
+     @keyframes  yellow {
+        0% {
+            background: yellow;
+        }
+        99% {
+            background: yellow;
+        }
+        100% {
+            background: yellow;
+        }
+
+     }
+     @keyframes green {
+        0% {
+            background: green;
+        }
+        99% {
+            background: green;
+        }
+        100% {
+            background: green;
+        }
+     }
+
